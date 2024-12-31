@@ -1,0 +1,87 @@
+{
+  "@context": {
+    "@language": "en-us",
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP119": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0119/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP119:body",
+      "@context": {
+        "references": {
+          "@id": "CIP119:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Identity": "CIP119:IdentityReference",
+            "Link": "CIP119:LinkReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP119:referenceHash",
+              "@context": {
+                "hashDigest": "CIP119:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "paymentAddress": "CIP119:paymentAddress",
+        "givenName": "CIP119:givenName",
+        "image": "CIP119:image",
+        "objectives": "CIP119:objectives",
+        "motivations": "CIP119:motivations",
+        "qualifications": "CIP119:qualifications",
+        "doNotList": "CIP119:doNotList"
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [],
+  "hashAlgorithm": {
+    "@value": "blake2b-256"
+  },
+  "body": {
+    "doNotList": false,
+    "givenName": {
+      "@value": "Kale Bittner"
+    },
+    "motivations": {
+      "@value": "In 2016, I learned what money truly is—not just a government-issued piece of paper, but faith in a system. To have faith in any system, I need to believe in the rules that underpin it. This belief led me to Bitcoin and, soon after, to Cardano. Since 2017, I’ve been a dedicated member of the ecosystem. While I’m not an influencer or programmer, I’ve remained actively engaged—first as a holder, then as an ITN delegator, as a DeFi participant, and now as a DRep.\n\nI’m not one to push any cryptocurrency, but I’m always eager to share the vision when asked. I believe in Cardano, I believe in its community, and I bring a perspective shaped by years of quiet, meaningful involvement. Having witnessed the challenges and triumphs over the past 7-8 years, I’m now ready to be a voice that helps guide us forward."
+    },
+    "objectives": {
+      "@value": "As a DRep, I am committed to upholding principles of fair and sensible governance, ensuring that power is balanced and distributed in a way that reflects the needs and interests of the broader community. I believe that governance should empower citizens, foster healthy debate, and encourage constructive criticism as essential components of growth and innovation.\n\nI will strive to maintain these ideals as we navigate the complexities of governance, ensuring that decisions are made with a long-term perspective and a focus on the collective good. I recognize that for Cardano to be more than just a best-in-class cryptocurrency, it must become a model for governance—one that demonstrates how decentralized, inclusive decision-making can lead to sustainable success.\n\nBy prioritizing transparency, inclusivity, and collaboration, I will do my part to ensure that Cardano not only excels in technology but also leads by example in building a governance framework that can be a blueprint for the fut"
+    },
+    "paymentAddress": {
+      "@value": "addr1qy24d043zzv3uc8gclr2czhdn7cckw6554szav32vddr92d5h3w659stvdq3pxktvvyl6scklvdxsrj4ueqnmgkn0vvsux6ktr"
+    },
+    "qualifications": {
+      "@value": "I’ll be transparent: I’m not a programmer, and I’ll defer to the expertise of others when it comes to the technical details of programming adjustments. However, I am an executive at a media / tech company, and I specialize in gathering input from diverse stakeholders to make decisions that align with long-term goals. My focus is on marketing, adoption, and game theory, and I will bring my expertise to the functional aspects of Cardano’s governance.\n\nI’ve often told my friends that while it’s important to understand the rules, it’s far better to write them. Over my career, I’ve spent years analyzing rules, contracts, and systems to identify pitfalls, avoid manipulation, and ensure fairness. Good governance is like a good game—the best ones are built on rules that everyone can agree on, and that’s the kind of governance I strive for."
+    },
+    "references": [
+      {
+        "@type": "Link",
+        "label": {
+          "@value": "Linkedin"
+        },
+        "uri": {
+          "@value": "https://www.linkedin.com/in/kale-bittner-0a19a337"
+        }
+      }
+    ]
+  }
+}
